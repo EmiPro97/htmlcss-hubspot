@@ -13,6 +13,7 @@
 /* Layout */
 .container{
     width: 1200px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -32,6 +33,10 @@
 
 .text-right{
     text-align: right;
+}
+
+.mr-bottom35{
+    margin-bottom: 35px;
 }
 
 /* Menu-style */
@@ -67,6 +72,10 @@ ul a{
 .btn.btn-orange{
     color: #ffffff;
     background-color: #fe775a;
+}
+
+.btn-orange.btn-big{
+    padding: 20px 40px;
 }
 
 
@@ -107,4 +116,56 @@ ul a{
 
 .bottom-bar a i{
     padding-left: 10px;
+}
+
+
+/* MAIN CONTENT */
+
+/* Jumbotron */
+.jumbotron-main{
+    height: 500px;
+    background-image: url(../img-hubspot/jumbotron.png);
+    background-size: 66%;
+    background-position: 100% 19%;
+    background-repeat: no-repeat;
+    background-color: #fff3ef;
+}
+
+.jumbotron .title-wrapper{
+    padding: 50px 100px 0 0;
+}
+
+.jumbotron .title-wrapper h1{
+    font-size: 2.5rem;
+}
+
+.jumbotron .title-wrapper p:not(.text-small){
+    line-height: 25px;
+}
+
+.jumbotron .title-wrapper .text-small{
+    font-size: 0.8rem;
+}
+
+.jumbotron .colored-line{
+    height: 85px;
+    background-color: #afebe4;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+    margin-bottom: 60px;
+}
+
+/* Cube sect. */
+.container.cube-wrapper{
+    width: 800px;
+    text-align: center;
+}
+
+.cube-wrapper img{
+    max-width: 200px;
+    max-height: 250px;
+}
+
+.cube-wrapper p{
+    line-height: 25px;
 }
