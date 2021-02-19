@@ -13,6 +13,7 @@
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -55,44 +56,46 @@
         </div>
 
          <!-- Bottom-bar -->
-        <div class="bottom-bar container clearfix">
-            <div class="w-50 float-left">
-                <img src="./img-hubspot/logo.svg" alt="Hubspot-Logo">
-            </div>
-            <div class="w-50 float-left text-right">
-                <nav class="bottom-nav">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                Software
-                                <i class="fas fa-chevron-down"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Pricing</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Resources
-                                <i class="fas fa-chevron-down"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Partners
-                                <i class="fas fa-chevron-down"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                About
-                                <i class="fas fa-chevron-down"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+        <section class="bottom-bar bgc-white">
+            <div class="container clearfix">
+                <div class="w-50 float-left">
+                    <img src="./img-hubspot/logo.svg" alt="Hubspot-Logo">
+                </div>
+                <div class="w-50 float-left text-right">
+                    <nav class="bottom-nav">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Software
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Resources
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Partners
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    About
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>    
+        </section>
     </header>
 
 
@@ -121,7 +124,7 @@
         </section>
 
         <!-- CRM sect. -->
-        <section class="crm-sect container mr-bottom60 box-shadow">
+        <section class="crm-sect container mr-bottom60 box-shadow bgc-white">
             <div class="clearfix">
                 <div class="w-30 float-left">
                     <img class="small-img" src="./img-hubspot/CRM-Illustration.svg" alt="CRM-img">
@@ -132,21 +135,52 @@
                     <p class="mr-bottom35">Everything you need to organize, track, and build better reletionships with leads and customers. Yes, it's 100% free. Forever.</p>
                     <h4 class="pop-feat crmH4">popular feature</h4>
                     <hr>
-                    <ul class="features-list">
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            Contact Insight
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            Deals
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            Task
-                        </li>
+                    <ul class="features-list ul-check-before">
+                        <li>Contact Insight</li>
+                        <li>Deals</li>
+                        <li>Task</li>
                     </ul>
                 </div>
+            </div>
+        </section>
+
+        <!-- Hub-Columns sect. -->
+        <section class="columns-sect container clearfix">
+            <div class="hub-col float-left box-shadow bgc-white">
+                <img class="small-img" src="./img-hubspot/Marketing-Hub-Free.svg" alt="marketing-img">
+                <h3 class="mr-bottom35">Marketing Hub</h3>
+                <p class="mr-bottom35">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+                <h4 class="pop-feat mr-bottom35">popular feature</h4>
+                <ul class="normal-ul ul-check-before mr-bottom60">
+                    <li>Lead Generation</li>
+                    <li>Marketing Automation</li>
+                    <li>Analytics</li>
+                </ul>
+                <a class="btn btn-orange btn-big" href="#">Learn More</a>
+            </div>
+            <div class="hub-col float-left box-shadow bgc-white">
+                <img class="small-img" src="./img-hubspot/Sales-Professional-Illustration.svg" alt="sales-img">
+                <h3 class="mr-bottom35">Sales Hub</h3>
+                <p class="mr-bottom35">Time-saving sales software that helps you get deeper insights into prospects, automate the tasks you hate, and close more deals faster.</p>
+                <h4 class="pop-feat mr-bottom35">popular feature</h4>
+                <ul class="normal-ul ul-check-before mr-bottom60">
+                    <li>Email Tracking</li>
+                    <li>Meeting Scheduling</li>
+                    <li>Email Atomation</li>
+                </ul>
+                <a class="btn btn-orange btn-big" href="#">Learn More</a>
+            </div>
+            <div class="hub-col float-left box-shadow bgc-white">
+                <img class="small-img" src="./img-hubspot/Service-Hub-Illustration.svg" alt="service-img">
+                <h3 class="mr-bottom35">Service Hub</h3>
+                <p class="mr-bottom35">Customer service software to help you connect with customers, excedd expectations, and turn them into promoters that grow your business.</p>
+                <h4 class="pop-feat mr-bottom35">popular feature</h4>
+                <ul class="normal-ul ul-check-before mr-bottom60">
+                    <li>Tickets</li>
+                    <li>Customer Feedback</li>
+                    <li>Knowledge Base</li>
+                </ul>
+                <a class="btn btn-orange btn-big" href="#">Learn More</a>
             </div>
         </section>
     </main>
