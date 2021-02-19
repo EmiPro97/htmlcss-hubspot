@@ -3,17 +3,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #33475b;
 }
 
 body{
     background-color: #f4f9fd;
     font-family: 'Montserrat', sans-serif;
-    color: #33475b;
+}
+
+h2{
+    font-size: 1.85rem;
 }
 
 h3{
     font-size: 1.45rem;
 }
+/* //////////////////////////////////////////////////////// */
 
 /* UTILITIES */
 
@@ -62,6 +67,7 @@ h3{
 .mr-bottom60{
     margin-bottom: 60px;
 }
+/* //////////////////////////////////////////////////////// */
 
 /* Text-styles */
 .text-right{
@@ -75,6 +81,7 @@ h3{
 p{
     line-height: 25px;
 }
+/* //////////////////////////////////////////////////////// */
 
 /* Menu-style */
 ul{
@@ -100,6 +107,7 @@ ul a{
 .list-br-right{
     border-right: 2px solid #33475b;
 }
+/* //////////////////////////////////////////////////////// */
 
 /* Buttons */
 .btn{
@@ -121,6 +129,7 @@ ul a{
 .btn-orange.btn-big{
     padding: 20px 40px;
 }
+/* //////////////////////////////////////////////////////// */
 
 /* Img-styles */
 img.small-img{
@@ -128,7 +137,7 @@ img.small-img{
     max-height: 100px;
     margin-bottom: 30px;
 }
-
+/* //////////////////////////////////////////////////////// */
 
 /* HEADER */
 
@@ -150,6 +159,7 @@ img.small-img{
 .top-bar .btn.btn-orange{
     margin-left: 20px;
 }
+/* //////////////////////////////////////////////////////// */
 
 /* Bottom-bar */
 .bottom-bar{
@@ -167,7 +177,7 @@ img.small-img{
 .bottom-bar a i{
     padding-left: 10px;
 }
-
+/* //////////////////////////////////////////////////////// */
 
 /* MAIN CONTENT */
 
@@ -200,6 +210,7 @@ img.small-img{
     border-bottom: 3px solid #33475b;
     margin-bottom: 60px;
 }
+/* //////////////////////////////////////////////////////// */
 
 /* Cube sect. */
 .container.cube-wrapper{
@@ -211,10 +222,7 @@ img.small-img{
     max-width: 250px;
     max-height: 300px;
 }
-
-.cube-wrapper h2{
-    font-size: 1.8rem;
-}
+/* //////////////////////////////////////////////////////// */
 
 /* CRM sect. */
 
@@ -254,6 +262,7 @@ img.small-img{
 .crm-sect li:last-child{
     margin-left: 15px;
 }
+/* //////////////////////////////////////////////////////// */
 
 /* Hub-Columns sect. */
 .columns-sect .hub-col{
@@ -274,4 +283,12 @@ img.small-img{
 
 .hub-col .normal-ul{
     text-align: left;
+}
+/* //////////////////////////////////////////////////////// */
+
+/* Community-sect. */
+.community-sect{
+    padding: 35px 0 70px 0;
+    background: linear-gradient(to right, #00a9b8, 50%, #00bca6);
+    text-align: center;
 }
