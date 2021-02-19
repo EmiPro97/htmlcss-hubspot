@@ -44,6 +44,10 @@ ul li{
     line-height: 1;
 }
 
+ul a{
+    text-decoration: none;
+}
+
 .list-br-right{
     border-right: 2px solid #33475b;
 }
@@ -89,4 +93,18 @@ ul li{
 }
 
 /* Bottom-bar */
+.bottom-bar{
+    line-height: 80px;
+}
 
+.bottom-bar img{
+    vertical-align: middle;
+}
+
+.bottom-bar a{
+    margin-right: 15px;
+}
+
+.bottom-bar a i{
+    padding-left: 10px;
+}
