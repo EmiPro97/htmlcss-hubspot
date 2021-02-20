@@ -3,12 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #33475b;
 }
 
 body{
     background-color: #f4f9fd;
     font-family: 'Montserrat', sans-serif;
+    color: #33475b;
+}
+
+h1{
+    font-size: 2.5rem;
 }
 
 h2{
@@ -72,6 +76,15 @@ h3{
 /* Text-styles */
 .text-right{
     text-align: right;
+}
+
+.text-small{
+    font-size: 0.8rem;
+}
+
+.text-big{
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 
 .pop-feat{
@@ -185,7 +198,7 @@ img.small-img{
 .jumbotron-main{
     height: 500px;
     background-image: url(../img-hubspot/jumbotron.png);
-    background-size: 66%;
+    background-size: 1210px;
     background-position: 100% 19%;
     background-repeat: no-repeat;
     background-color: #fff3ef;
@@ -193,14 +206,6 @@ img.small-img{
 
 .jumbotron .title-wrapper{
     padding: 50px 100px 0 0;
-}
-
-.jumbotron .title-wrapper h1{
-    font-size: 2.5rem;
-}
-
-.jumbotron .title-wrapper .text-small{
-    font-size: 0.8rem;
 }
 
 .jumbotron .colored-line{
@@ -291,4 +296,40 @@ img.small-img{
     padding: 35px 0 70px 0;
     background: linear-gradient(to right, #00a9b8, 50%, #00bca6);
     text-align: center;
+    color: #ffffff;
+}
+
+.community-sect .community-col{
+    width: calc(100% / 4);
+    padding: 30px 0;
+    border-right: 1px solid #fff;
+}
+
+.community-sect .top-col-wrapper .community-col:last-child,
+.community-sect .bottom-col-wrapper .community-col:last-child{
+    border-right: none;
+}
+
+.community-sect .top-col-wrapper{
+    border-bottom: 1px solid #fff;
+}
+
+.community-sect .community-col .com-img-wrapper{
+    height: 52px;
+}
+
+.community-sect .community-col img{
+    margin-bottom: 15px;
+    max-width: 150px;
+}
+
+.community-sect .community-col .text-big{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.community-sect .community-col .plus{
+    font-size: 1.8rem;
+    position: relative;
+    bottom: 3.5px;
 }
