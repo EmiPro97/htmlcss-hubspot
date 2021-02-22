@@ -28,7 +28,7 @@ h3{
 
 /* Layout */
 .container{
-    width: 1200px;
+    max-width: 1200px;
     height: 100%;
     margin: 0 auto;
 }
@@ -52,6 +52,10 @@ h3{
 
 .w-30{
     width: 30%;
+}
+
+.w-50{
+    width: 50%;
 }
 
 .w-70{
@@ -87,6 +91,15 @@ h3{
     font-weight: 800;
 }
 
+.text-bigger{
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.text-weight{
+   font-weight: 700;
+}
+
 .pop-feat{
     text-transform: uppercase;
 }
@@ -112,7 +125,7 @@ ul a{
 
 .ul-check-before li::before{
     content: "\f058";
-    font-family: FontAwesome;
+    font-family: "FontAwesome";
     color: #fe775a;
     padding-right: 10px;
 }
@@ -271,7 +284,7 @@ img.small-img{
 
 /* Hub-Columns sect. */
 .columns-sect .hub-col{
-    width: calc(100% / 3 - 40px);
+    max-width: calc(100% / 3 - 40px);
     background-color: #ffffff;
     padding: 20px 30px;
     text-align: center;
@@ -333,3 +346,42 @@ img.small-img{
     position: relative;
     bottom: 3.5px;
 }
+/* //////////////////////////////////////////////////////// */
+
+/* Customers sect. */
+
+/* Left */
+.customers-sect{
+    padding-top: 80px;
+}
+
+.customers-sect .left-customers-wrapper{
+    padding: 0 80px;
+}
+
+.customers-sect .left-customers-wrapper p{
+    line-height: 35px;
+}
+
+.customers-sect .left-customers-wrapper .text-bigger{
+    display: inline-block;
+}
+
+/* Right */
+.customers-sect .right-customers-wrapper{
+    text-align: right;
+    margin-left: 150px;
+}
+
+.customers-sect .right-customers-wrapper li{
+    padding: 10px;
+}
+
+.customers-sect .right-customers-wrapper img{
+    max-width: 100px;
+    max-height: 100px;
+    vertical-align: middle;
+}
+/* //////////////////////////////////////////////////////// */
+
+
